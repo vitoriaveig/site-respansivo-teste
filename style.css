@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:#FFBC30;
+    background-color:#E4B52F;
 }
 
 section {
@@ -83,3 +83,31 @@ section {
     opacity: 10;
 }
 
+.about {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about .contentBx {
+    min-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+.titleText {
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.text {
+    font-size: 1em;
+    color: #fff;
+}
+.about .imgBx {
+    min-width: 50%;
+    position: relative;
+    width: 50%;
+    min-height: 500px;
+}
